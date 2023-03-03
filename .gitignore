@@ -1,0 +1,6 @@
+.idea/
+account.db
+__pycache__/
+dist/
+pass.db
+*.ui
