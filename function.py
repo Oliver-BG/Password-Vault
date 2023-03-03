@@ -92,11 +92,6 @@ def generate_pass():
 
 	return "".join(password_list)
 
-if __name__ == "__main__":
-	key = generate_key()
-	test = encrypt_pass("TeStCaSe12345!", "User", key)
-	print(test)
-	print(decrypt_pass(test, "user", key))
 
 
 	
